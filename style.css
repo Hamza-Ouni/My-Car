@@ -20,12 +20,17 @@ header {
   align-items: center;
 }
 
+.logo {
+  margin: 5%;
+}
+
 #logo-img {
   width: 10%;
 }
 
 .cart {
   flex: 1;
+  justify-content: flex-end;
 }
 
 #cart-img {
@@ -42,6 +47,14 @@ nav {
   display: flex;
 }
 
+.nav-links {
+  justify-content: space-evenly; /*Items will have equal space around them	
+*/
+  list-style: none; /*Remove the bullets of the lists*/
+}
+
 .nav-link {
-  flex: 1;
+  color: rgb(96, 153, 86); /*Change the default color of the anchor text*/
+  font-size: 16px;
+  text-decoration: none; /*to remove the underlines for anchors (lists)*/
 }
