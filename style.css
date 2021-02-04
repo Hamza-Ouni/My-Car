@@ -7,3 +7,41 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center; /*align all the items in the header*/
+}
+
+.logo-container {
+  flex: 1;
+  align-items: center;
+}
+
+#logo-img {
+  width: 10%;
+}
+
+.cart {
+  flex: 1;
+}
+
+#cart-img {
+  width: 8%;
+}
+
+nav {
+  flex: 2;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.nav-link {
+  flex: 1;
+}
