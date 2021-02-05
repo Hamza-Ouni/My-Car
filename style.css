@@ -54,7 +54,20 @@ nav {
 }
 
 .nav-link {
-  color: rgb(96, 153, 86); /*Change the default color of the anchor text*/
+  color: rgb(27, 29, 27); /*Change the default color of the anchor text*/
   font-size: 16px;
   text-decoration: none; /*to remove the underlines for anchors (lists)*/
+}
+
+.presentation {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+p{
+  width: 70%;
+  text-align: justify;
+
 }
