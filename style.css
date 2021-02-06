@@ -66,8 +66,51 @@ nav {
   min-height: 80vh;
   align-items: center;
 }
-p{
-  width: 70%;
+.introduction {
+  flex: 1;
+}
+* .intro-text h2 {
+  font-size: 45px;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(0, 85, 128), rgb(0, 96, 128));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+.cta-select {
+  border: 2px solid rgb(255, 128, 213);
+  background: transparent;
+  color: rgb(255, 128, 213);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.cta-add {
+  background-color: rgb(255, 128, 213);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  border: none;
+  margin: 30px 0px 0px 30px;
+}
+.cover {
+  flex: 1;
+}
+p {
+  width: 80%;
   text-align: justify;
-
+}
+.cover img {
+  width: 85%;
+  filter: drop-shadow(0px 5px 3px black); /*Add shadow to the cover image*/
 }
